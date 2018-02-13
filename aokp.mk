@@ -21,7 +21,7 @@ TARGET_SCREEN_HEIGHT := 1280
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := perry
-PRODUCT_NAME := lineage_perry
+PRODUCT_NAME := aokp_perry
 PRODUCT_BRAND := motorola
 PRODUCT_MANUFACTURER := motorola
 
