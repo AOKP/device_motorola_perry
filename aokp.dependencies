@@ -1,22 +1,50 @@
 [
   {
-    "repository":  "android_device_motorola_msm8937-common",
-    "target_path": "device/motorola/msm8937-common"
-  },
-  {
-    "repository":  "android_kernel_motorola_msm8937",
-    "target_path": "kernel/motorola/msm8937"
-  },
-  {
-    "repository": "android_external_bson",
-    "target_path": "external/bson"
-  },
-  {
+    "remote":     "cm",
     "repository": "android_device_qcom_common",
-    "target_path": "device/qcom/common"
+    "target_path": "device/qcom/common",
+    "branch":     "cm-14.1"
   },
   {
+    "remote":     "github",
+    "repository": "mrnoob69/proprietary_vendor_motorola",
+    "target_path": "vendor/motorola",
+    "branch":     "cm-14.1"
+  },
+  {
+    "remote":     "github",
+    "repository": "mrnoob69/android_device_motorola_msm8937-common",
+    "target_path": "device/motorola/msm8937-common",
+    "branch":     "cm-14.1"
+  },
+  {
+    "remote":     "github",
+    "repository": "mrnoob69/android_device_motorola_qcom318-32",
+    "target_path": "device/motorola/qcom318-32",
+    "branch":     "cm-14.1"
+  },
+  {
+    "remote":     "github",
+    "repository": "mrnoob69/android_kernel_motorola_msm8937",
+    "target_path": "kernel/motorola/msm8937",
+    "branch":     "cm-14.1"
+  },
+  {
+    "remote":     "cm",
+    "repository": "android_external_bson",
+    "target_path": "external/bson",
+    "branch":     "cm-14.1"     
+  },
+  {
+    "remote":     "cm",
     "repository": "android_packages_resources_devicesettings",
-    "target_path": "packages/resources/devicesettings"
+    "target_path": "packages/resources/devicesettings",
+    "branch":     "cm-14.1"     
+  },
+  {
+    "remote":     "cm",
+    "repository": "android_external_sony_boringssl-compat",
+    "target_path": "external/sony/boringssl-compat",
+    "branch":     "cm-14.1"
   }
 ]
